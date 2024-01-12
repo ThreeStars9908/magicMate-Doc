@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="icon" type="image/x-icon" href="assets/images/5.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&amp;family=Poppins:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+
+        <title>MagicMate - on Core PHP With Flutter</title>
+    </head>
+    <body>
+        <div class="doc_sidebar_wrapper">
+            <!--sidebar start-->
+            <div class="logo_wrapper">
+                <div class="doc_logo">
+                    <img src="assets/images/logo.png" alt="logo" />
+                </div>
+            </div>
+            <div class="doc_sidebar_inner">
+                <div class="menu_inner">
+                    <ul>
+                        <li data-number="1" class="menu_item main_menu active">
+                            <a href="javascript:;" class="menu_link">
+                                <span class="svg_spn">
+                                    <svg id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="m446.604 124.392-119.996-119.997c-2.846-2.847-6.735-4.395-10.608-4.395h-210c-24.813 0-45 20.187-45 45v422c0 24.813 20.187 45 45 45h300c24.813 0 45-20.187 45-45v-332c0-4.116-1.743-7.957-4.396-10.608zm-115.604-73.179 68.787 68.787h-53.787c-8.271 0-15-6.729-15-15zm75 430.787h-300c-8.271 0-15-6.729-15-15v-422c0-8.271 6.729-15 15-15h195v75c0 24.813 20.187 45 45 45h75v317c0 8.271-6.729 15-15 15z"
+                                            />
+                                            <path d="m346 242h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 302h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 362h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <circle cx="136" cy="257" r="15" />
+                                            <circle cx="136" cy="317" r="15" />
+                                            <circle cx="136" cy="377" r="15" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="title_spn">Introduction</span>
+                            </a>
+                        </li>
+
+                        <li data-number="2" class="menu_item main_menu">
+                            <a href="javascript:;" class="menu_link">
+                                <span class="svg_spn">
+                                    <svg id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="m446.604 124.392-119.996-119.997c-2.846-2.847-6.735-4.395-10.608-4.395h-210c-24.813 0-45 20.187-45 45v422c0 24.813 20.187 45 45 45h300c24.813 0 45-20.187 45-45v-332c0-4.116-1.743-7.957-4.396-10.608zm-115.604-73.179 68.787 68.787h-53.787c-8.271 0-15-6.729-15-15zm75 430.787h-300c-8.271 0-15-6.729-15-15v-422c0-8.271 6.729-15 15-15h195v75c0 24.813 20.187 45 45 45h75v317c0 8.271-6.729 15-15 15z"
+                                            />
+                                            <path d="m346 242h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 302h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 362h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <circle cx="136" cy="257" r="15" />
+                                            <circle cx="136" cy="317" r="15" />
+                                            <circle cx="136" cy="377" r="15" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="title_spn">Basic</span>
+                            </a>
+                        </li>
+
+                        <li data-number="3" class="menu_item main_menu">
+                            <a href="javascript:;" class="menu_link">
+                                <span class="svg_spn">
+                                    <svg id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="m446.604 124.392-119.996-119.997c-2.846-2.847-6.735-4.395-10.608-4.395h-210c-24.813 0-45 20.187-45 45v422c0 24.813 20.187 45 45 45h300c24.813 0 45-20.187 45-45v-332c0-4.116-1.743-7.957-4.396-10.608zm-115.604-73.179 68.787 68.787h-53.787c-8.271 0-15-6.729-15-15zm75 430.787h-300c-8.271 0-15-6.729-15-15v-422c0-8.271 6.729-15 15-15h195v75c0 24.813 20.187 45 45 45h75v317c0 8.271-6.729 15-15 15z"
+                                            />
+                                            <path d="m346 242h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 302h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 362h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <circle cx="136" cy="257" r="15" />
+                                            <circle cx="136" cy="317" r="15" />
+                                            <circle cx="136" cy="377" r="15" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="title_spn">Server</span>
+                            </a>
+                        </li>
+						
+						<li data-number="4" class="menu_item main_menu">
+                            <a href="javascript:;" class="menu_link">
+                                <span class="svg_spn">
+                                    <svg id="Capa_1" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path
+                                                d="m446.604 124.392-119.996-119.997c-2.846-2.847-6.735-4.395-10.608-4.395h-210c-24.813 0-45 20.187-45 45v422c0 24.813 20.187 45 45 45h300c24.813 0 45-20.187 45-45v-332c0-4.116-1.743-7.957-4.396-10.608zm-115.604-73.179 68.787 68.787h-53.787c-8.271 0-15-6.729-15-15zm75 430.787h-300c-8.271 0-15-6.729-15-15v-422c0-8.271 6.729-15 15-15h195v75c0 24.813 20.187 45 45 45h75v317c0 8.271-6.729 15-15 15z"
+                                            />
+                                            <path d="m346 242h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 302h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <path d="m346 362h-150c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15z" />
+                                            <circle cx="136" cy="257" r="15" />
+                                            <circle cx="136" cy="317" r="15" />
+                                            <circle cx="136" cy="377" r="15" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="title_spn">Mobile App</span>
+                            </a>
+                        </li>
+
+                        <li data-number="5" class="menu_item main_menu">
+                            <a href="javascript:;" class="menu_link">
+                                <span class="svg_spn">
+                                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m369.164062 174.769531c7.8125 7.8125 7.8125 20.476563 0 28.285157l-134.171874 134.175781c-7.8125 7.808593-20.472657 7.808593-28.285157 0l-63.871093-63.875c-7.8125-7.808594-7.8125-20.472657 0-28.28125 7.808593-7.8125 20.472656-7.8125 28.28125 0l49.730468 49.730469 120.03125-120.035157c7.8125-7.808593 20.476563-7.808593 28.285156 0zm142.835938 81.230469c0 141.503906-114.515625 256-256 256-141.503906 0-256-114.515625-256-256 0-141.503906 114.515625-256 256-256 141.503906 0 256 114.515625 256 256zm-40 0c0-119.394531-96.621094-216-216-216-119.394531 0-216 96.621094-216 216 0 119.394531 96.621094 216 216 216 119.394531 0 216-96.621094 216-216zm0 0"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="title_spn">Install on server</span>
+                            </a>
+                        </li>
+
+                        
+
+                        <li data-number="6" class="menu_item main_menu">
+                            <a href="javascript:;" class="menu_link">
+                                <span class="svg_spn">
+                                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M512,197.819l-185.933-12.228L256,9.571l-70.067,176.021L0,197.82l142.658,120.93L95.856,502.429L256,401.214 l160.144,101.215l-46.8-183.671L512,197.819z M256,365.724l-112.464,71.08l32.827-128.831L75.829,222.888l130.971-8.603 L256,90.687l49.2,123.599l131.124,8.602l-100.689,85.077l32.829,128.839L256,365.724z"
+                                                />
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="title_spn">Features</span>
+                            </a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar_ovelay toggle_btn"></div>
+        <!--sidebar end-->
+
+        <div class="doc_main_wrapper">
+            <!--doc_main_wrapper start-->
+            <div class="main__inner_wrapper">
+                <!--main__inner_wrapper start-->
+                <!-- Header start -->
+                <div class="doc_header_wrapper">
+                    <div class="container-fluid">
+                        <div class="doc_header_inner">
+                            <div class="doc_left_wrap">
+                                <div class="toggle_btn">
+                                    <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 270 270">
+                                        <g>
+                                            <g><path d="M114,0H10C4.5,0,0,4.5,0,10v104c0,5.5,4.5,10,10,10h104c5.5,0,10-4.5,10-10V10C124,4.5,119.5,0,114,0z M104,104H20V20h84 V104z" /></g>
+                                        </g>
+                                        <g>
+                                            <g><path d="M260,0H156c-5.5,0-10,4.5-10,10v104c0,5.5,4.5,10,10,10h104c5.5,0,10-4.5,10-10V10C270,4.5,265.5,0,260,0z M250,104h-84 V20h84V104z" /></g>
+                                        </g>
+                                        <g>
+                                            <g><path d="M114,146H10c-5.5,0-10,4.5-10,10v104c0,5.5,4.5,10,10,10h104c5.5,0,10-4.5,10-10V156C124,150.5,119.5,146,114,146z M104,250H20v-84h84V250z" /></g>
+                                        </g>
+                                        <g>
+                                            <g><path d="M260,146H156c-5.5,0-10,4.5-10,10v104c0,5.5,4.5,10,10,10h104c5.5,0,10-4.5,10-10V156C270,150.5,265.5,146,260,146z M250,250h-84v-84h84V250z" /></g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="ceated_info">
+                                    <ul>
+                                        <li>Created : 06 July 2023</li>
+                                        <li><strong>Contact Our Support Team Email: </strong><a class="word_break" href="mailto:cscodetechuser@gmail.com">cscodetechuser@gmail.com</a></li>
+                                        <li><strong>Skype: </strong><a class="word_break" href="https://join.skype.com/invite/UaLkm7W1aZey">CSCODETECH</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header End -->
+                <div class="doc_content_wrapper">
+                    <!--doc_content_wrapper start-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- 1 section Introduction -->
+                                <div class="main_section" data-scroll="1">
+                                    <header><h1 class="mb-3">Introduction</h1></header>
+									<p>Thank you for your interest in <b>MagicMate.</b></p>
+									
+                                    <p>
+                                        MagicMate is a complete Event List system developed using Core Php (8.0 and above) and Flutter Framework. 
+										We’ve already laid the foundation — freeing you to create without sweating the small things. 
+										Flutter framework created by Google is open-source mobile application development. 
+										It is used to develop applications for Android and iOS, as well as being the primary method of creating applications.
+                                    </p>
+									
+									<p>MagicMate comprises 1 Mobile Application, 2 Web Panel –</p>
+									
+									<ul>
+									<li>Customer application for Android, iOS  developed using Flutter.</li>
+									<li>Super Admin web panel developed using Core PHP.</li>
+									<li>Oragnizer web panel developed using Core PHP.</li>
+									</ul>
+									
+                                   
+                                    
+									
+									<h3><b>Event List</b></h3>
+									
+									<p>Event List functionality is a feature typically found in various applications, such as calendar apps, task management tools, or event planning platforms. It allows users to create, manage, and track events or tasks within a specific timeframe. The Event List provides an organized view of all the scheduled events, making it easier for users to stay informed and keep track of their commitments.</p>
+									<ul>
+									<li><b>Creating Events:</b> <p>Users can create new events by providing essential details such as the event title, date, start time, end time, location (if applicable), and any additional notes or descriptions. This information is usually entered through a user-friendly interface or by using natural language processing to interpret text-based inputs.</p></li>
+									<li><b>Managing Events:</b><p> Once an event is created, it can be managed within the Event List. Users can easily view, edit, or delete events as needed. Editing an event allows users to modify details like the event title, date, time, or location, while deleting an event removes it from the list entirely.</p></li>
+									<li><b>Date and Time Display:</b><p>The Event List typically displays events chronologically, based on their date and time. It may use different visual indicators to differentiate upcoming, ongoing, or completed events. This helps users quickly identify which events are happening soon or require immediate attention.</p></li>
+									<li><b>Sharing and Collaboration:</b><p>In some cases, Event Lists provide sharing and collaboration features. Multiple users can access and contribute to the same event list, making it ideal for team-based project management or event planning. Users can assign tasks, set deadlines, and receive real-time updates on progress.</p></li>
+									<li><b>Search Functionality:</b><p>Large Event Lists can benefit from a search function that allows users to quickly find specific events based on keywords or criteria. This is particularly useful when dealing with extensive event histories or when searching for past events.</p></li>
+									
+									</ul>
+                                
+								
+<div class="admonition admonition-tip alert alert--success">
+                                    <div class="admonition-heading">
+                                        <h5>
+                                            <span class="admonition-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+                                                    <path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path>
+                                                </svg>
+                                            </span>
+                                            tip
+                                        </h5>
+                                    </div>
+                                    <div class="admonition-content">
+                                        <p>How To Get Purchase Code From Envato? -</p>
+                                        <p><a href="https://docs.flutter.dev/deployment/android" target="_blank" rel="noopener noreferrer">https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-</a></p>
+                                    </div>
+                                </div>
+								
+
+								</div>
+                            </div>
+                        </div>
+
+                        <div class="main_section" data-scroll="2">
+                            <h2>Basic</h2>
+                            <p>As MagicMate is a complete system with lots of modules for web and mobile apps, it is compulsory to have some basic knowledge in both server side and mobile app development if you want to do the installation, setup and publishing with your branding yourself.</p>
+                            <ul>
+							<li>IDE for Mobile and Web development, we preferred Android Studio and VSCode.</li>
+							<li>Flutter SDK and JDK with path setup in your IDE.</li>
+							<li>Real server Server related knowledge like apache or local machine server, we preferred to use a real server.</li>
+							<li>Server related knowledge and we preferred cPanel in your server for quick installation</li>
+							<li>Basic knowledge in PHP, Dart, Core PHP and Flutter if you want to do some customization yourself (Not compulsory).</li>
+							<li>basic knowledge about google cloud and firebase</li>
+							</ul>
+
+                            <div class="alert alert--danger admonition">
+                                <div class="admonition-heading">
+                                    <h5>
+                                        <span class="admonition-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"
+                                                ></path>
+                                            </svg>
+                                        </span>
+                                        warning
+                                    </h5>
+                                </div>
+                                <div class="admonition-content">
+                                    <p>
+                                        The Envato price don’t included any kind of installation and deploy support. You need to follow the documentation step by step for installation, setup and other branding related changes. We are not
+                                        responsible for your mistake. Also if you do any kind of customization it is totally your responsibility.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main_section" data-scroll="3">
+                            <h2>Server</h2>
+                            
+                            <ul>
+							<li>MagicMate requires PHP v8.1 and MySQL 8.0+</li>
+							<li>Output_Buffering On Required</li></ul>
+
+                            <div class="alert alert--danger admonition">
+                                <div class="admonition-heading">
+                                    <h5>
+                                        <span class="admonition-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"
+                                                ></path>
+                                            </svg>
+                                        </span>
+                                        warning
+                                    </h5>
+                                </div>
+                                <div class="admonition-content"><p>Please do this very carefully. We will not be responsible for your mistake.</p></div>
+                            </div>
+                        </div>
+						
+						<div class="main_section" data-scroll="4">
+                            <h2>Mobile app</h2>
+                            
+                           <ul><li>Android studio</li></ul>
+						   <div class="admonition admonition-tip alert alert--success"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</h5></div><div class="admonition-content"><p>You can download android studio from here:</p><p><a href="https://developer.android.com/studio?gclid=CjwKCAiAiKuOBhBQEiwAId_sK4X0PLQrES_2pG_S8nPflALgWSOCUEqRRAFpbS4AmR5mXmU6hIhvHxoCfBgQAvD_BwE&amp;gclsrc=aw.ds" target="_blank" rel="noopener noreferrer">https://developer.android.com/studio?gclid=CjwKCAiAiKuOBhBQEiwAId_sK4X0PLQrES_2pG_S8nPflALgWSOCUEqRRAFpbS4AmR5mXmU6hIhvHxoCfBgQAvD_BwE&amp;gclsrc=aw.ds</a></p></div></div>
+						   <ul>
+						   <li>Flutter SDK setup (version 3.10.5 <strong>Stable</strong>)</li>
+						   <li>JDK with path setup (only for vs code)</li>
+						   <li>Xcode for IPA file build</li>
+						   </ul>
+						   
+						   <h2>Flutter SDK</h2>
+						   
+						   <p>You have to download and setup flutter from flutter.dev. You can follow documentation with your own device.</p>
+						   <p>Windows: <a href="https://docs.flutter.dev/get-started/install/windows" target="_blank" rel="noopener noreferrer">https://docs.flutter.dev/get-started/install/windows</a></p>
+						   <p>Mac: <a href="https://docs.flutter.dev/get-started/install/macos" target="_blank" rel="noopener noreferrer">https://docs.flutter.dev/get-started/install/macos</a></p>
+						   <p>Linux: <a href="https://docs.flutter.dev/get-started/install/linux" target="_blank" rel="noopener noreferrer">https://docs.flutter.dev/get-started/install/linux</a></p>
+						   
+						   <div class="admonition admonition-tip alert alert--success"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</h5></div><div class="admonition-content"><p>Recommended setup tutorial is below 👇</p></div></div>
+                        <div style="text-align: center; width: 60%; height: 35vh; margin-left: 20%; margin-bottom: 15px;"><div style="text-align: center; width: 100%; height: 100%;"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/hfz_AraTk_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div></div>
+						<p>Now run a command:</p>
+						<pre class="language-javascript" tabindex="0"><code class="language-javascript">flutter doctor</code><button>Copy Code</button></pre>
+						
+						<pre class="language-javascript mb-3" tabindex="0"><code class="language-javascript">flutter Pub get</code><button>Copy Code</button></pre>
+						
+						<h2>App build & release</h2>
+						
+						<h4>Build for Android</h4>
+						<p>For debug build you can run command:</p>
+						<pre class="language-javascript mb-3" tabindex="0"><code class="language-javascript">flutter build apk</code><button>Copy Code</button></pre>
+						<p>You will get a larger merged apk with this. But you can split them with this command:</p>
+						<pre class="language-javascript mb-3" tabindex="0"><code class="language-javascript">flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi</code><button>Copy Code</button></pre>
+						
+						<p>Build file location: <code>&lt;project&gt;/build/app/outputs/flutter-apk/</code>
+For deploying it please follow this documentation:
+
+
+ </p>
+ 
+ <div class="admonition admonition-tip alert alert--success">
+                                    <div class="admonition-heading">
+                                        <h5>
+                                            <span class="admonition-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+                                                    <path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path>
+                                                </svg>
+                                            </span>
+                                            tip
+                                        </h5>
+                                    </div>
+                                    <div class="admonition-content">
+                                        <p>You can check the official documentation -</p>
+                                        <p><a href="https://docs.flutter.dev/deployment/android" target="_blank" rel="noopener noreferrer">https://docs.flutter.dev/deployment/android</a></p>
+                                    </div>
+                                </div>
+
+<h4>Build for iOS</h4>
+
+<p>There are no general way to generate app for iOS. Apple doesn’t allow to install app like this debug way. If you want to install it on your iOS device then you have to deploy it on TestFlight or AppStore.
+For deploying it please follow this documentation: </p>
+
+<div class="admonition admonition-tip alert alert--success">
+                                    <div class="admonition-heading">
+                                        <h5>
+                                            <span class="admonition-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+                                                    <path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path>
+                                                </svg>
+                                            </span>
+                                            tip
+                                        </h5>
+                                    </div>
+                                    <div class="admonition-content">
+                                        <p>You can check the official documentation -</p>
+                                        <p><a href="https://docs.flutter.dev/deployment/ios" target="_blank" rel="noopener noreferrer">https://docs.flutter.dev/deployment/ios</a></p>
+                                    </div>
+                                </div>
+								
+								<h3>Mandatory setup</h3>
+								
+								<h4>Change App Logo</h4>
+								<p>You can generate app icon from this website https://app icon.co.</p>
+								
+								<ul>
+								<li>Go to <code>&lt;project&gt;/assets/</code> and replace logo1.png with your own logo.</li>
+								
+								<li>Then go to <code>/android/app/src/main/res</code> and replace all mipmap folder with your <code>&lt;generated icon&gt;/android</code> folder.</li>
+								<li>Again go to <code>/ios/Runner</code> and replace Assets.xcassets with your generated Assets.xcassets folder.</li>
+								</ul>
+								
+								<h4>Change App Name</h4>
+								<ol>
+								<li><p>Change the value of label from <code>&lt;project&gt;/android/app/src/main/AndroidManifest.xml</code></p>
+<div><pre class="language-javascript mb-3" tabindex="0"><code class="language-javascript"> android:label="My App"</code><button>Copy Code</button></pre></div>
+</li>
+<li>
+<p>Change the value of CFBundleName from  <code>&lt;project&gt;/iOS/Runner/info.plist</code></p>
+<div><pre class="language-html mb-3" tabindex="0"><code class="language-html">&lt;key&gt;CFBundleName&lt;/key&gt;
+ &lt;string&gt;My App&lt;/string&gt;</code></pre></div>
+</li>
+								</ol>
+								
+								<h4>Change Base URL</h4>
+								<p>Must remember that don’t put slash(/) at the end of your base url. Use your admin url as base url. First you have to
+install your admin panel. For example: If your admin url is <code>https://Subdomain.your_domain.com/</code> then base url will be
+<code>https://Subdomain.your_domain.com</code>. Open <code>/lib/Api/config.dart</code> and replace <code>baseurl</code> variable value with your own URL.</p>
+
+<div><pre class="language-javascript mb-3" tabindex="0"><code class="language-javascript"> static const String baseurl = 'https://Subdomain.your_domain.com/';</code><button>Copy Code</button></pre></div>
+
+
+<h4>Change App Package</h4>
+<p>First you have to find out the existing package name. You can find it out from top
+of <code>/app/src/main/AndroidManifest.xml</code>
+file. Now right click on project folder from android studio and click on <code>replace in path</code>. You will get a popup window
+with two input box. In first box you have to put existing package name that you saw in <code>AndroidManifest.xml</code> file
+previously and write down your preferred package name in second box and then click on <code>Replace All</code> button.</p>
+
+
+<h4>Generate Sha1 And Sha256 For Firebase</h4>
+<ol>
+<li>Open Terminal In Android Studio</li>
+<li>Then Run Below Two Command 
+<pre class="language-javascript mb-3" tabindex="0"><code class="language-javascript"> cd android</code><button>Copy Code</button></pre>
+<pre class="language-javascript mb-3" tabindex="0"><code class="language-javascript"> ./gradlew signingReport</code><button>Copy Code</button></pre>
+</li>
+
+</ol>
+
+<h4>Add Google Map API Key</h4>
+<ul>
+<li>You need to generate the google API key. Visit this link -<a href="https://developers.google.com/maps/documentation/embed/get-api-key" target="_blank" rel="noopener noreferrer">https://developers.google.com/maps/documentation/embed/get-api-key</a></li>
+<li>You need to enabled mentione APIs: Direction API, Distance Matrix API, Geocoding API, Maps SDK for Android, Maps SDK for iOS, Place API.</li><li>You have to enable billing account. Visit this url for activating: <a href="https://support.google.com/googleapi/answer/6158867?hl=en" target="_blank" rel="noopener noreferrer">https://support.google.com/googleapi/answer/6158867?hl=en</a></li>
+<li>After generating API key, you have to put it on 2 different place for Android, iOS.</li>
+</ul>
+
+
+<h4>How To Setup Onesignal And Configuration ID And Key</h4>
+<div class="admonition admonition-tip alert alert--success">
+                                    <div class="admonition-heading">
+                                        <h5>
+                                            <span class="admonition-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16">
+                                                    <path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path>
+                                                </svg>
+                                            </span>
+                                            tip
+                                        </h5>
+                                    </div>
+                                    <div class="admonition-content">
+                                        <p>You can check the official documentation -</p>
+                                        <p><a href="https://documentation.onesignal.com/docs/flutter-sdk-setup" target="_blank" rel="noopener noreferrer">https://documentation.onesignal.com/docs/flutter-sdk-setup</a></p>
+                                    </div>
+                                </div>
+						</div>
+
+                        <div class="main_section" data-scroll="5">
+						<h2>Install on server</h2>
+                            <h3>1. Database Configuration</h3>
+                            <p><strong>Before starting the admin installation, database must be configured for the application.</strong></p>
+							<p>For creating the database, the following ways must be maintained-</p>
+
+                           <ul><li>Go to <strong>MySQL Databases</strong></li></ul>
+						   <div style="display: flex; justify-content: center; padding-bottom: 5%;"><img src="assets/images/database_step_1-141b032327b500493859cf88b25ecf21.png" style="width: 70%; height: auto; text-align: center; border-radius: 8px;"></div>
+                        <ul><li>Create a new database for the application</li></ul>
+						<div style="display: flex; justify-content: center; padding-bottom: 5%;"><img src="assets/images/database_step_2-c579f76eedea081db9e986f016d1c4e5.png" style="width: 70%; height: auto; text-align: center; border-radius: 8px;"></div>
+						
+						<ul><li>Create a user for the database</li></ul>
+						<div style="display: flex; justify-content: center; padding-bottom: 5%;"><img src="assets/images/database_step_3-77aad2bd0c397051965539282ccfa83c.png" style="width: 70%; height: auto; text-align: center; border-radius: 8px;"></div>
+						
+						<div class="admonition admonition-warning alert alert--danger"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>warning</h5></div><div class="admonition-content"><p>Avoid using hash ("#" or "$") in your password</p></div></div>
+						
+						<ul><li>Add the user to the database</li></ul>
+						<div style="display: flex; justify-content: center; padding-bottom: 5%;"><img src="assets/images/database_step_4-debdf961fdfeafb01fa1deda6c7765ea.png" style="width: 70%; height: auto; text-align: center; border-radius: 8px;"></div>
+						<ul><li>Give privileges to the user</li></ul>
+						<div style="display: flex; justify-content: center; padding-bottom: 5%;"><img src="assets/images/database_step_5-e793c964ec2e343941734a00d51a43cc.png" style="width: 70%; height: auto; text-align: center; border-radius: 8px;"></div>
+						
+						<div class="admonition admonition-tip alert alert--success"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</h5></div><div class="admonition-content"><p>From one hosting provider to the next, the interface or step differs.
+Speak with your server provider if you're having trouble configuring the database.
+You can also get in touch with us for any type of consulting if you need it.</p></div></div>
+						<h3>2. Admin Panel Installation</h3>
+						<p>After download the code from codecayon upload the <strong>.zip</strong> in your directory and extract the zip file.
+MagicMate can be installed on your subdomain: For Example, <strong>subdomain.yourdomain.com</strong></p>
+
+<div class="admonition admonition-warning alert alert--danger"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>warning</h5></div><div class="admonition-content"><p>Don’t install the admin panel  sub directory (like: yourdomain.com/folder). We Allow Only Subdomain</p></div></div>
+				
+<ul><li><strong>Step 1:</strong> After Database Setup Done Change Username,Password And Database Name. Directory From <code>Filemanager/evconfing.php</code></strong>.</li></ul>	
+<div style="display: flex; justify-content: center; padding-bottom: 5%;"><img src="assets/images/db_connection.png" style="width: 70%; height: auto; text-align: center; border-radius: 8px;"></div>			
+			<ul><li><strong>Step 2:</strong> Add Google Map Key  Directory From <code>add_event.php</code></strong>.</li></ul>	
+<div style="display: flex; justify-content: center; padding-bottom: 5%;"><img src="assets/images/keyset.png" style="width: 70%; height: auto; text-align: center; border-radius: 8px;"></div>			
+					<p>You need to generate the google API key. Visit this link -
+<a href="https://developers.google.com/maps/documentation/embed/get-api-key" target="_blank" rel="noopener noreferrer">https://developers.google.com/maps/documentation/embed/get-api-key</a></p>	
+						</div>
+
+                        
+
+                        <!-- 2.section Features -->
+                        <div class="main_section" data-scroll="6">
+                            <h1 class="mb-3">Features information</h1>
+                            <ul class="ul_style1">
+                                <li>
+                                    <b>User Login Role:</b>
+                                    <p>
+                                        There Are Two Roles One IS Main Admin And Second One Is Orgnizer Who Manage Events.
+                                    </p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f1.png" />
+                                <li>
+                                    <b>Dashboard:</b>
+                                    <p>
+                                        Dashboard Show All Reports Total Running,Cancelled,Completed Events And Total Orgnizer List With Management.
+                                    </p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f2.png" />
+                                <li>
+                                    <b>Orgnizer Management:</b>
+                                    <p>
+                                        Main Admin Can Manage All Oragnizer From Panel Easily See All Activity Of All Oragnizer.
+                                    </p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f3.png" />
+                                <li>
+                                    <b>User Management:</b>
+                                    <p>
+                                        Easily Manage All Users From Panel Easily See All Activity Of All User.
+                                    </p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f4.png" />
+                                <li>
+                                    <b>General Setting Management:</b>
+                                    <p>
+                                       In General Setting Manage Admin Panel Logo,Name,TimeZone And Currency.
+                                    </p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f5.png" />
+                                <li>
+                                    <b>Dashboard For Orgnizer:</b>
+                                    <p>Show Total Event,Completed Event,Running Event,Cancelled Event,Event Gallery And Artist Manage.</p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f6.png" />
+                                <li>
+                                    <b>Event Management:</b>
+                                    <p>Users can create new events by providing essential details such as the event title, date, start time, end time, location (if applicable), and any additional notes or descriptions. This information is usually entered through a user-friendly interface or by using natural language processing to interpret text-based inputs.</p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f7.png" />
+                                <li>
+                                    <b>Profile Management:</b>
+                                    <p>
+                                       Profile Management Name,Mobile,Email,Password Can Manage Here.
+                                    </p>
+                                </li>
+                                <img class="mb-3" alt="images" src="assets/images/ss/f8.png" />
+                                
+                            </ul>
+                           
+                        </div>
+                        
+                    </div>
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="assets/js/jquery-3.1.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
